@@ -1,0 +1,28 @@
+Relatório da missão 1.0: Acendendo um LED com Arduino
+
+Introdução
+Este relatório irá apresentar como foi realizado o processo de acender um LED utilizando a plataforma tinkerCAD e com outros componentes citados adiante, com o objetivo de utilizar a placa de prototipagem Arduino para piscar um LED com diferentes períodos de tempo.
+
+Componentes Utilizados:
+TinkerCAD
+Arduino Uno
+LED
+Resistor
+Protoboard
+
+Circuito
+No circuito é utilizado uma placa de arduino e uma placa de ensaio(protoboard), onde serão conectados o LED, e o resistor.
+
+No arduino é conectado GND para o valor negativo do protoboard e a tensão de 5v para o positivo do protoboard.
+No protoboard, onde o terminal negativo (cátodo) do LED conectado ao GND por meio de um fio e o terminal positivo (ânodo) será conectado ao pino 13 do arduino e ao resistor para que a tensão, caso seja superior à suportada pela LED, não a danifique.
+
+Funcionamento do Circuito
+Ao iniciar a simulação ao ligar o Arduino, o LED é definido como saída do programa, ou seja, o output, conectado ao pino 13, que será a posição da LED, seu identificador.
+Após isso é configurado dentro de um loop o tempo que o LED irá acender (HIGH) e apagar (LOW) com 3 períodos diferentes, que serão feitos em sequência infinitamente.
+
+Conclusão
+Concluímos que para o funcionamento de um circuito em que um LED seja aceso é necessário vários passos sem exceção, e feitos de maneira correta para que a LED seja acesa e para que não ocorra erros ou danos. 
+
+Link do circuito no TinkerCAD:
+Visualização
+Colaborar e Editar 
