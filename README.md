@@ -52,3 +52,9 @@ void loop() {
   digitalWrite(13, LOW);   // Apaga o LED
   delay(200);              // Espera 0.2 segundos
 }
+```
+
+<h2 style = "color: green">Conclusão</h2>
+Concluímos que para o funcionamento de um circuito em que um LED seja aceso é
+necessário vários passos sem exceção, e feitos de maneira correta para que a LED seja
+acesa e para que não ocorra erros ou danos.
